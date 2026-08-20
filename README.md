@@ -61,16 +61,10 @@ ablespace/
 
 ## Getting Started
 
-### Prerequisites
-
-- Node.js 18+
-- MongoDB running locally on port `27017` (or update `MONGODB_URI` in `.env`)
-
 ### Backend
 
 ```bash
 cd backend
-cp .env.example .env   # edit your secrets
 npm run start:dev      # runs on http://localhost:3001
 ```
 
@@ -78,7 +72,6 @@ npm run start:dev      # runs on http://localhost:3001
 
 ```bash
 cd frontend
-cp .env.local.example .env.local   # edit your API URL
 npm run dev            # runs on http://localhost:3000
 ```
 
@@ -108,7 +101,7 @@ NEXT_PUBLIC_SOCKET_URL=http://localhost:3001
 
 ---
 
-## Google OAuth Setup (optional)
+## Google OAuth Setup
 
 1. Go to [Google Cloud Console](https://console.cloud.google.com/)
 2. Create a project → Enable "Google OAuth 2.0" API
