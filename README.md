@@ -144,3 +144,7 @@ NEXT_PUBLIC_SOCKET_URL=http://localhost:3001
 | `task:updated` | Server → Client | Full task object |
 | `task:deleted` | Server → Client | `{ id: string }` |
 | `comment:created` | Server → Client | `{ taskId, comment }` |
+
+---
+
+### Part 2 - [Understanding workflow](https://docs.google.com/document/d/1islwfoAZLWtsKxrgcO2gJQZ--Osw2OJayO66_R7FaTo/edit?usp=sharing)
