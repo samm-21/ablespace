@@ -1,4 +1,4 @@
-# Pyramid — Task Management System
+# Task Management System
 
 A full-stack task management application built with **Next.js**, **NestJS**, **MongoDB**, and **Socket.IO**.
 
